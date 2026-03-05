@@ -4,10 +4,6 @@
 
 ### *Your passwords have the right to remain encrypted.*
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=for-the-badge)
-![Encryption](https://img.shields.io/badge/encryption-AES--256--GCM-green?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)
 
 **[⬇️ Download Latest Release](../../releases/latest)**
 
