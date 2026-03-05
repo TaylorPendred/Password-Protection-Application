@@ -1,121 +1,47 @@
-<div align="center">
+# Password Police
 
-# 🚔 PASSWORD POLICE
-
-### *Your passwords have the right to remain encrypted.*
-
-
-**[⬇️ Download Latest Release](../../releases/latest)**
-
-</div>
+A secure, local password manager. All passwords are stored and encrypted directly on your computer — nothing is ever sent to the cloud or any external server.
 
 ---
 
-<div align="center">
+## Download
 
-## 🏆 Your Vault. Your Machine. Your Rules.
-
-*No cloud. No subscriptions. No accounts. No excuses.*
-
-</div>
+**[Click here to download the latest version](../../releases/latest)**
 
 ---
 
-## ⚡ What is Password Police?
+## Installation
 
-Password Police is a **fully local** desktop password manager. Every password you store is encrypted directly on your computer using **AES-256-GCM** — the same standard used by governments and banks. Nothing ever touches the internet. No one can access your data but you.
+1. Download **Password Police Setup.exe** from the link above
+2. Double-click the installer and follow the on-screen steps
+3. Open **Password Police** from your Start Menu
 
----
-
-## 🎮 Features
-
-| 🔐 | **AES-256-GCM Encryption** | Military-grade. Every entry encrypted on save. |
-|---|---|---|
-| 📋 | **One-Click Copy** | Username or password to clipboard instantly. |
-| 🚀 | **One-Click Login** | Opens the site and copies your password simultaneously. |
-| ⏱️ | **Auto-Lock** | Vault locks after 60 seconds of inactivity. |
-| 🛡️ | **Brute-Force Protection** | 5 wrong attempts = 24-hour lockout. No exceptions. |
-| 📧 | **Email Recovery** | Optional recovery code if you forget your master password. |
-| 🔍 | **Instant Search** | Filter across titles, URLs and notes in real time. |
-| ♾️ | **Unlimited Entries** | No caps. No tiers. No paywalls. |
+No accounts, no subscriptions, no internet connection required.
 
 ---
 
-## 🚨 Brute-Force Mode
+## First Time Setup
 
-> Try to crack the vault and you'll meet our security consultant.
+When you open the app for the first time you will be asked to create a master password. This is the single password that protects your entire vault — choose something strong and store it somewhere safe.
 
-5 failed attempts triggers a **24-hour lockout** — complete with a live countdown and a very unhappy Tung Tung Tung Sahur staring you down.
-
-Good luck.
+You can optionally add a recovery email address during setup in case you ever forget your master password.
 
 ---
 
-## 📥 Installation
+## Features
 
-```
-1. Download Password Police Setup.exe from the link above
-2. Double-click the installer
-3. Open Password Police from your Start Menu
-```
-
-No accounts. No internet. No setup headaches.
-
-> **macOS / Linux?** Grab the `.dmg` or `.AppImage` from the releases page.
+- AES-256 encryption — all data stored locally on your machine
+- Store unlimited logins with website, username, password and notes
+- One-click copy for username or password to clipboard
+- One-click login — opens the website and copies your password simultaneously
+- Auto-locks after 60 seconds of inactivity
+- Optional email recovery for forgotten master password
+- Brute-force protection — 5 incorrect attempts results in a 24-hour lockout
 
 ---
 
-## 🔑 First Time Setup
+## Security
 
-When you launch for the first time, you'll create your **master password** — the single key to your entire vault.
-
-```
-✅ Choose something strong
-✅ Store it somewhere safe  
-✅ Optionally add a recovery email address
-```
-
-> ⚠️ There is no "forgot password" backdoor. That's the point. The recovery email option exists for this exact reason — set it up during onboarding.
-
----
-
-## 🔒 Security Model
-
-```
-Your passwords  →  AES-256-GCM encryption  →  Stored locally on your machine
-                                                         ↑
-                                              That's where it ends.
-                                          No servers. No sync. No cloud.
-```
-
-- Master password is **never stored in plaintext** — only a derived verification hash
-- Fresh random salt and IV generated on every save
-- PBKDF2 key derivation at 100,000 iterations
-- Vault decrypted in memory only — cleared on lock or timeout
-- contextIsolation enforced — renderer cannot access system APIs
-
----
-
-## 🗺️ Roadmap
-
-- [x] AES-256-GCM encrypted vault
-- [x] Brute-force lockout with visual deterrent
-- [x] Email-based master password recovery
-- [x] One-click login and clipboard copy
-- [x] Auto-lock with inactivity timer
-- [ ] Built-in password generator
-- [ ] Clipboard auto-clear (30s)
-- [ ] Password audit and breach detection
-- [ ] Encrypted vault backup and export
-- [ ] Biometric unlock (Touch ID / Windows Hello)
-- [ ] System tray mode
-
----
-
-<div align="center">
-
-*Built local. Stays local. Always.*
-
-**🚔 Password Police — protecting your credentials since 2026**
-
-</div>
+- Your passwords never leave your computer
+- All data encrypted with AES-256-GCM
+- No account required, no servers, no tracking
