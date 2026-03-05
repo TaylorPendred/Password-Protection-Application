@@ -1,6 +1,6 @@
 # Password Police
 
-A secure, local password manager. All passwords are stored and encrypted directly on your computer — nothing is ever sent to the cloud or any external server.
+A secure, local password manager. All passwords are stored and encrypted directly on your computer, nothing is ever sent to the cloud or any external server.
 
 ---
 
@@ -22,7 +22,7 @@ No accounts, no subscriptions, no internet connection required.
 
 ## First Time Setup
 
-When you open the app for the first time you will be asked to create a master password. This is the single password that protects your entire vault — choose something strong and store it somewhere safe.
+When you open the app for the first time you will be asked to create a master password. This is the single password that protects your entire vault - choose something strong and store it somewhere safe.
 
 You can optionally add a recovery email address during setup in case you ever forget your master password.
 
@@ -30,13 +30,13 @@ You can optionally add a recovery email address during setup in case you ever fo
 
 ## Features
 
-- AES-256 encryption — all data stored locally on your machine
+- AES-256 encryption - all data stored locally on your machine
 - Store unlimited logins with website, username, password and notes
 - One-click copy for username or password to clipboard
-- One-click login — opens the website and copies your password simultaneously
+- One-click login - opens the website and copies your password simultaneously
 - Auto-locks after 60 seconds of inactivity
 - Optional email recovery for forgotten master password
-- Brute-force protection — 5 incorrect attempts results in a 24-hour lockout
+- Brute-force protection - 5 incorrect attempts results in a 24-hour lockout
 
 ---
 
