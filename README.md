@@ -112,15 +112,6 @@ Your passwords  →  AES-256-GCM encryption  →  Stored locally on your machine
 
 ---
 
-## 🛠️ Built With
-
-![Electron](https://img.shields.io/badge/Electron-29-47848F?style=flat-square&logo=electron)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?style=flat-square&logo=javascript)
-![Web Crypto API](https://img.shields.io/badge/Web%20Crypto%20API-AES--256-green?style=flat-square)
-![electron-store](https://img.shields.io/badge/electron--store-8-blue?style=flat-square)
-
----
-
 <div align="center">
 
 *Built local. Stays local. Always.*
